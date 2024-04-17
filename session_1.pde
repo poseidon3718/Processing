@@ -1,0 +1,16 @@
+size(100,100);
+colorMode(HSB);
+background(0);
+stroke(34,255,255);
+strokeWeight(10);
+strokeCap(ROUND);
+strokeJoin(MITER);
+noFill();
+beginShape();
+vertex(10,40);
+vertex(50,80);
+vertex(90,40);
+endShape();
+strokeWeight(13);
+point(25,20);
+point(75,20);
