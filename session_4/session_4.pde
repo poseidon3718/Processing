@@ -11,7 +11,7 @@ String Serial_Data_String = null;
 void setup()
 {
   size (700,900) ;
-  img=loadImage ("C://SAE_CAR//IMG//ultrasonic_sensor.png");
+  img=loadImage ("C:/Users/User/OneDrive/문서/Processing/프로세싱 기초/20240506_session_4/session_4/ultrasonic_sensor.png");
   port = new Serial (this, "COM4", 115200) ;
 }
 
